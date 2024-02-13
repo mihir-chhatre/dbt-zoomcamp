@@ -1,0 +1,8 @@
+version: 2
+sources:
+  - name: staging
+    database: dezoomcamp2024-mc9164
+    schema: ny_taxi
+    tables:
+      - name: yellow_cab_data
+      - name: green_tripdata_2022_partitioned_clustered
